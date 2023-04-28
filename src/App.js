@@ -1,13 +1,12 @@
+import logo from './logo.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div id="header">
-        <h1>
-          Buon Viaggio 🍝 Italian Restaurant
-        </h1>
-        <h5 id="tagline"> – Your Tastebuds on a Journey – </h5>
+      <h1 id="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buon Viaggio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Italian Restaurant</h1>
+      <img src={logo} id="logo" alt=""/>
       </div>
 
       <div id="content">
@@ -21,7 +20,7 @@ function App() {
           <i class="fa fa-phone"></i> 07212121 <br></br>
           <i class="fa fa-shop"></i> 123, Italia Palace, Lala Land<br></br>
           <i class="fa fa-envelope"></i> info@buonviaggio.com <br></br>
-        </p> 
+        </p>
       </div>
     </div>
   );
