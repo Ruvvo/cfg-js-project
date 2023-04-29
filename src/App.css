@@ -1,24 +1,22 @@
-body
-{
-    padding:0;
-    margin:0;    
+body {
+  padding: 0;
+  margin: 0;
 }
 
-#header, #footer
-{
-    text-align: center;
-    position: fixed;
-    width:100%;    
+#header,
+#footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
 }
 
-#header
-{
-    left : 0;
-    top : 0;
-    background-color:red;
-    color:white;
-    height:90px;
-    font-family: 'Brush Script MT', cursive;
+#header {
+  left: 0;
+  top: 0;
+  background-color: red;
+  color: white;
+  height: 90px;
+  font-family: "Brush Script MT", cursive;
 }
 
 #tagline {
@@ -26,21 +24,40 @@ body
   margin-top: -20px;
 }
 
-#footer
-{   
-    left : 0;
-    bottom : 0;
-    background-color:#00D436;
-    height:90px;
+#footer {
+  left: 0;
+  bottom: 0;
+  background-color: #00d436;
+  height: 90px;
 }
 
-#content
-{
-    background-color : white;
-    color:black;
-    width:95%;
-    height : 1500px;
-    margin:auto;
-    margin-top : 100px;
-    margin-bottom: 100px;
+#content {
+  background-color: white;
+  color: black;
+  width: 70%;
+  height: 1500px;
+  margin: auto;
+  margin-top: 300px;
+}
+.firstword {
+  font-size: 70px;
+  padding-top: 150px;
+  display: inline;
+}
+.tagline img {
+  border-radius: 50%;
+  float: right;
+  clear: right;
+  margin-bottom: 100px;
+  position: absolute;
+  left: 60%;
+  bottom: -3%;
+}
+.button1 {
+  margin-top: 50px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  background-color: red;
 }
