@@ -1,7 +1,9 @@
 import React from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 import "./App.css";
 import platter from "./platter.png";
 import pizzaplate from "./pizzaplate.png";
+import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
