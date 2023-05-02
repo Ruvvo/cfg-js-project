@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import { MenuPage } from "./Pages/MenuPage";
 import "./App.css";
 import platter from "./platter.png";
 import pizzaplate from "./pizzaplate.png";
-import Navbar from "./Pages/Navbar";
+// import Navbar from "./Pages/Navbar";
 
 function App() {
   return (
@@ -19,11 +20,16 @@ function App() {
           <img src={platter} width="500" height="500"></img>
         </h2>
         <br></br>
-        <button title="Our Menu" className="button1">
+        <button
+          as={Link}
+          to="./Pages/Menupage"
+          title="Our Menu"
+          className="button1"
+        >
           Our Menu
         </button>
-      </div>
-      <div className="split left">
+
+        {/* <div className="split left">
         <div className="centered">
           <img src={pizzaplate} width="200" height="200"></img>
         </div>
@@ -33,14 +39,34 @@ function App() {
           <h3>Our meeting times</h3>
           <p>Monday-Friday: 5pm - 11pm Closed Sundays</p>
         </div>
-      </div>
+      </div> */}
+        {/* <div className="main">
+          <div className="small">left</div>
 
-      <div id="footer">
-        <p id="info">
-          <i class="fa fa-phone"></i> 07212121 <br></br>
-          <i class="fa fa-shop"></i> 123, Italia Palace, Lala Land<br></br>
-          <i class="fa fa-envelope"></i> info@buonviaggio.com <br></br>
-        </p>
+          <div className="large">right</div>
+        </div>
+      </div> */}
+        <div className="split left">
+          <div className="left1">
+            {/* <img src={pizzaplate}></img>
+            <h2>Jane Flex</h2>
+            <p>Some text.</p> */}
+          </div>
+        </div>
+
+        <div className="split right">
+          <div className="centered">
+            <h3 id="openingtimes">Our opening times</h3>
+            <p className="times">Monday-Friday: 5pm - 11pm Closed Sundays</p>
+          </div>
+        </div>
+        <div id="footer">
+          <p id="info">
+            <i class="fa fa-phone"></i> 07212121 <br></br>
+            <i class="fa fa-shop"></i> 123, Italia Palace, Lala Land<br></br>
+            <i class="fa fa-envelope"></i> info@buonviaggio.com <br></br>
+          </p>
+        </div>
       </div>
     </div>
   );

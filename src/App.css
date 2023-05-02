@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow: scroll;
 }
 
 #header,
@@ -17,6 +18,7 @@ body {
   color: white;
   height: 90px;
   font-family: "Brush Script MT", cursive;
+  z-index: 2;
 }
 
 #tagline {
@@ -59,7 +61,52 @@ body {
   height: 70px;
   border-radius: 20px;
   font-size: 20px;
-
   color: white;
   background-color: red;
+}
+
+.split {
+  height: 75%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  margin-top: 50%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 40px;
+  /* transform: translate(-50%, -50%); */
+  /* text-align: center; */
+  color: white;
+}
+.centered .times {
+  font-size: 20px;
+  left: 25%;
+}
+.left1 {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; 
+  width: 50%;*/
+  height: 100%;
+  background-image: url(./pizzaplate.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

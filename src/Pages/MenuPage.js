@@ -1,4 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-function 
+export default function Menu() {
+  return (
+    <>
+      <h1>Menu page</h1>
+    </>
+  );
+}
