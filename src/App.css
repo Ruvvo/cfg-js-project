@@ -1,26 +1,9 @@
-body
-{
-    padding:0;
-    margin:0;
+body {
+  padding: 0;
+  margin: 0;
+  overflow: scroll;
 }
 
-<<<<<<< Updated upstream
-#header, #footer
-{
-    text-align: center;
-    position: fixed;
-    width:100%;
-}
-
-#header
-{
-    left : 0;
-    top : 0;
-    background-color:red;
-    color:white;
-    height:90px;
-    font-family: 'Brush Script MT', cursive;
-=======
 #header,
 #footer {
   text-align: center;
@@ -37,7 +20,6 @@ body
   height: 90px;
   font-family: "Brush Script MT", cursive;
   z-index: 16;
->>>>>>> Stashed changes
 }
 
 #logo {
@@ -52,25 +34,6 @@ body
   margin-top: -20px;
 } */
 
-<<<<<<< Updated upstream
-#footer
-{
-    left : 0;
-    bottom : 0;
-    background-color:#00D436;
-    height:90px;
-}
-
-#content
-{
-    background-color : white;
-    color:black;
-    width:95%;
-    height : 1500px;
-    margin:auto;
-    margin-top : 100px;
-    margin-bottom: 100px;
-=======
 #times{text-align: right;}
 #openingtimes {
   font-family: Century Gothic, Century Gothic;
@@ -168,5 +131,4 @@ body
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
->>>>>>> Stashed changes
 }
