@@ -4,6 +4,7 @@ body
     margin:0;
 }
 
+<<<<<<< Updated upstream
 #header, #footer
 {
     text-align: center;
@@ -19,6 +20,24 @@ body
     color:white;
     height:90px;
     font-family: 'Brush Script MT', cursive;
+=======
+#header,
+#footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 13;
+}
+
+#header {
+  left: 0;
+  top: 0;
+  background-color: red;
+  color: white;
+  height: 90px;
+  font-family: "Brush Script MT", cursive;
+  z-index: 16;
+>>>>>>> Stashed changes
 }
 
 #logo {
@@ -33,6 +52,7 @@ body
   margin-top: -20px;
 } */
 
+<<<<<<< Updated upstream
 #footer
 {
     left : 0;
@@ -50,4 +70,103 @@ body
     margin:auto;
     margin-top : 100px;
     margin-bottom: 100px;
+=======
+#times{text-align: right;}
+#openingtimes {
+  font-family: Century Gothic, Century Gothic;
+  text-align: right;
+}
+#buttonheader {
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  position: relative;
+  bottom: -870px;
+  z-index: 5;
+}
+
+#footer {
+  left: 0;
+  bottom: 0;
+  background-color: #00d436;
+  height: 90px;
+}
+
+#content {
+  background-color: white;
+  color: black;
+  width: 70%;
+  height: 1500px;
+  margin: auto;
+  margin-top: 250px;
+}
+.firstword {
+  font-size: 70px;
+  padding-top: 350px;
+  display: inline;
+}
+.tagline img {
+  border-radius: 50%;
+  float: right;
+  clear: right;
+  margin-bottom: 150px;
+  position: absolute;
+  left: 60%;
+  bottom: -3%;
+}
+.button1 {
+  margin-top: 50px;
+  width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+}
+
+.split {
+  height: 75%;
+  width: 50%;
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  margin-top: 60%;
+  overflow-x: hidden;
+  /* padding-top: 20px; */
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 40px;
+  /* transform: translate(-50%, -50%); */
+  /* text-align: center; */
+  color: white;
+  z-index: 1;
+}
+.centered .times {
+  font-size: 20px;
+  left: 25%;
+}
+.left1 {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; 
+  width: 50%;*/
+  height: 100%;
+  background-image: url(./pizzaplate.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+>>>>>>> Stashed changes
 }
