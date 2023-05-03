@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/cfg-js-project/static/css/main.276d1e8f.css",
-    "main.js": "/cfg-js-project/static/js/main.1453e828.js",
-    "static/js/787.fd9c0a02.chunk.js": "/cfg-js-project/static/js/787.fd9c0a02.chunk.js",
+    "main.css": "/cfg-js-project/static/css/main.b7500fa2.css",
+    "main.js": "/cfg-js-project/static/js/main.9f58083b.js",
+    "static/js/787.01b8aa7f.chunk.js": "/cfg-js-project/static/js/787.01b8aa7f.chunk.js",
+    "static/media/platter.png": "/cfg-js-project/static/media/platter.6eec97df8dc659096af9.png",
+    "static/media/pizzaplate.png": "/cfg-js-project/static/media/pizzaplate.c36ed90816333c10f05e.png",
     "static/media/logo.png": "/cfg-js-project/static/media/logo.2a9637509869cab122c8.png",
     "index.html": "/cfg-js-project/index.html",
-    "main.276d1e8f.css.map": "/cfg-js-project/static/css/main.276d1e8f.css.map",
-    "main.1453e828.js.map": "/cfg-js-project/static/js/main.1453e828.js.map",
-    "787.fd9c0a02.chunk.js.map": "/cfg-js-project/static/js/787.fd9c0a02.chunk.js.map"
+    "main.b7500fa2.css.map": "/cfg-js-project/static/css/main.b7500fa2.css.map",
+    "main.9f58083b.js.map": "/cfg-js-project/static/js/main.9f58083b.js.map",
+    "787.01b8aa7f.chunk.js.map": "/cfg-js-project/static/js/787.01b8aa7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.276d1e8f.css",
-    "static/js/main.1453e828.js"
+    "static/css/main.b7500fa2.css",
+    "static/js/main.9f58083b.js"
   ]
 }
