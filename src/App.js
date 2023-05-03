@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-import logo from './logo.png'
-import './App.css';
-=======
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { MenuPage } from "./Pages/MenuPage";
@@ -12,7 +8,6 @@ import logo from './logo.png'
 import "./button-group.css";
 import ButtonGroup from "./ButtonGroup";
 // import Navbar from "./Pages/Navbar";
->>>>>>> Stashed changes
 
 function App() {
   const printButtonLabel = (event) => {
@@ -21,14 +16,6 @@ function App() {
     <div className="App">
       <div id="header">
       <h1 id="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buon Viaggio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Italian Restaurant</h1>
-<<<<<<< Updated upstream
-      <img src={logo} id="logo" alt=""/>
-      </div>
-
-      <div id="content">
-          <h1>Hello world!</h1>
-          <li>🍕</li>
-=======
         <img src={logo} id="logo" alt=""/>
       </div>
 
@@ -46,18 +33,21 @@ function App() {
         >
           Our Menu
         </button>
->>>>>>> Stashed changes
 
+        {/* <div className="split left">
+        <div className="centered">
+          <img src={pizzaplate} width="200" height="200"></img>
+        </div>
       </div>
+      <div className="split right">
+        <div className="centered">
+          <h3>Our meeting times</h3>
+          <p>Monday-Friday: 5pm - 11pm Closed Sundays</p>
+        </div>
+      </div> */}
+        {/* <div className="main">
+          <div className="small">left</div>
 
-<<<<<<< Updated upstream
-      <div id="footer">
-        <p id="info">
-          <i class="fa fa-phone"></i> 07212121 <br></br>
-          <i class="fa fa-shop"></i> 123, Italia Palace, Lala Land<br></br>
-          <i class="fa fa-envelope"></i> info@buonviaggio.com <br></br>
-        </p>
-=======
           <div className="large">right</div>
         </div>
       </div> */}
@@ -90,7 +80,6 @@ function App() {
         doSomethingAfterClick={printButtonLabel}
       />
     </div>
->>>>>>> Stashed changes
       </div>
     </div>
   );
