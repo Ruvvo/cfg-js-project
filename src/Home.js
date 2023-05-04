@@ -24,13 +24,9 @@ export default function Home() {
   return (
     <div className="App">
       <div id="header">
-        <h1 id="name">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buon Viaggio
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Italian Restaurant
-        </h1>
-        <img src={logo} id="logo" alt="" />
+        <h1>Buon Viaggio 🍝 Italian Restaurant</h1>
+        <h5 id="tagline"> – Your Tastebuds on a Journey – </h5>
       </div>
-
       <div id="content" className="tagline">
         <h2 className="firstword">
           Your tastebuds <br></br>on a journey.

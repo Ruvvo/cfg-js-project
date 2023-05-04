@@ -1,7 +1,5 @@
 .customButton {
   position: relative;
-  bottom: -870px;
-
   margin: auto;
   display: flex;
   justify-content: center;
@@ -19,4 +17,7 @@
 .active {
   background-color: rgb(104, 234, 89);
   border: 1.5px solid rgb(6, 6, 5);
+}
+button {
+  margin-top: 5px;
 }
