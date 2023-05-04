@@ -22,7 +22,7 @@ export default function Menu() {
               width="300"
               height="300"
             ></img>
-            <p className="price">£20</p>
+            <button className="price">£20</button>
           </div>
           <div className="column">
             <img
@@ -31,15 +31,15 @@ export default function Menu() {
               width="300"
               height="300"
             ></img>
-            <p className="price">£22</p>
+            <button className="price">£22</button>
           </div>
           <div className="column">
             <img src={lasagne} alt="lasagne " width="300" height="300"></img>
-            <p className="price">£10</p>
+            <button className="price">£10</button>
           </div>
           <div className="column">
             <img src={tiramasu} alt="tirasmu" width="300" height="300"></img>
-            <p className="price">£30</p>
+            <button className="price">£30</button>
           </div>
         </div>
       </div>

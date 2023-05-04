@@ -137,6 +137,9 @@ body {
   width: 25%;
   padding: 10px;
 }
+.column img {
+  border: 5px solid red;
+}
 #buttonheader {
   text-align: center;
   margin-top: 50px;
@@ -144,4 +147,10 @@ body {
 .price {
   text-align: center;
   font-size: 40px;
+}
+.column .price {
+  border-radius: 5px;
+  position: relative;
+  border-color: red;
+  background-color: white;
 }
